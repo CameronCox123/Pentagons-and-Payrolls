@@ -1,11 +1,9 @@
-# File: HW1.py
+# File: Pentagons and Payrolls
 # Author: Cameron Cox
 # UT EID: cpc2526
 # Course: CS303E
-#
-# Date: 9/15/23
-#Calculates the area of a pentagon
-#Prints a payroll statement
+
+# Description of Program: Calculates the area of a pentagon and prints a payroll statement
 
 import math
 
@@ -52,9 +50,3 @@ netPay = (grossPay - (fedTotal + stateTotal))
 print(f"  {fedSentence:<26}{fedEnding:>8}")
 print(f"  {stateSentence:<26}{stateEnding:>8}")
 print(f"Net Pay: ${netPay:.2f}")
-
-
-
-
-
-
